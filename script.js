@@ -13,9 +13,9 @@ ScrollReveal().reveal('.subtitle', {
 });
 
 ScrollReveal().reveal('.section-title', {
-    duration: 300,
+    duration: 500,
     reset: true,
-    distance: '240px',
+    distance: '60px',
     origin: 'bottom',
     opacity: 0
 });
