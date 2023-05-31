@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raja Sosis</title>
     <script src="https://cdn.tailwindcss.com"></script>
-
 </head>
 
 <body class="font-sans overflow-x-hidden">
@@ -18,6 +17,8 @@
                 class="nav-list lg:flex-row flex-col items-center lg:z-0 -z-10 flex lg:static lg:translate-y-0 bg-slate-800 absolute -translate-y-[1000px] transition-all duration-300 ease-in-out top-20 left-0 lg:h-auto lg:w-auto w-screen h-[25vh]">
                 <a href="#home"
                     class="hover:bg-slate-700 transition-all duration-300 px-5 py-3 rounded-md text-gray-100">Home</a>
+                    <a href="#about"
+                    class="hover:bg-slate-700 transition-all duration-300 px-5 py-3 rounded-md text-gray-100">About Us</a>
                 <a href="#menu"
                     class="hover:bg-slate-700 text-gray-100 px-5 py-3 rounded-md transition-all duration-300">Menu</a>
                 <a href="#pesan"
@@ -40,7 +41,7 @@
                 <span class="subtitle lg:text-4xl text-2xl text-slate-400">Rajanya Para Sosis</span>
             </header>
         </section>
-        <section class="py-16 relative h-screen -z-20">
+        <section id="about" class="py-32 relative h-screen -z-20">
             <div class="lg:px-20 px-4 max-w-[1440px]  m-auto flex flex-col gap-y-8">
                 <header>
                     <h1 class="section-title lg:text-4xl text-2xl font-bold text-slate-800 text-center">
@@ -48,23 +49,25 @@
                     </h1>
                 </header>
                 <div class="flex lg:flex-row flex-col gap-8 items-center justify-between">
-                    <article class="text-slate-800 max-w-[480px] lg:text-lg">
+                    <p class="section-content text-slate-800 max-w-[480px] lg:text-lg">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident pariatur similique dolor
                         aspernatur illo voluptatibus quam magnam cupiditate tempore, voluptatum eligendi officiis magni
                         nulla voluptates repellendus porro delectus id tempora? Lorem, ipsum dolor sit amet consectetur
                         adipisicing elit. Architecto, reprehenderit.
-                    </article>
-                    <div class="relative">
-                        <img class="section-content shadow-xl lg:w-[500px] w-[300px] rounded-full aspect-square object-contain"
-                            src="" alt="Raja Sosis">
-                        <div
-                            class="section-content lg:w-[500px] w-[300px] rounded-full aspect-square border-orange-500 border-2 absolute -z-10 top-6 left-6">
-                        </div>
+                    </p>
+                
+                <div class="relative section-content ">
+                    <img class="shadow-xl lg:w-[500px] w-[300px] rounded-full aspect-square object-cover object-center"
+                        src="/img/raja-sosis-logo.jpg"
+                        alt="Raja Sosis">
+                    <div
+                        class="lg:w-[500px] w-[300px] rounded-full aspect-square border-orange-500 border-2 absolute -z-10 top-6 left-6">
                     </div>
                 </div>
             </div>
+            </div>
         </section>
-        <section id="menu" class="bg-orange-100 py-[144px] relative h-screen -z-20">
+        <section id="menu" class="bg-orange-100 py-32 relative h-screen -z-20">
             <div class="lg:px-20 px-4 max-w-[1440px]  m-auto flex flex-col gap-y-8">
                 <header>
                     <h1 data-aos="fade-top"
@@ -79,12 +82,8 @@
                             Mamang Mirza</span>
                     </div>
                     <div class="relative">
-                        <img class="section-content shadow-xl lg:w-[500px] w-[300px] rounded-full aspect-square object-cover"
-                            src="https://images.unsplash.com/photo-1672711217712-1582ab75eff1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80"
-                            alt="Raja Sosis">
-                        <div
-                            class="section-content lg:w-[500px] w-[300px] rounded-full aspect-square border-orange-500 border-2 absolute -z-10 top-6 left-6">
-                        </div>
+                        <img class="section-content lg:w-[700px] lg:h-[600px] h-[400px] w-[500px] object-contain"
+                            src="/img/rasis-raja-sosis.jpg" alt="Raja Sosis">
                     </div>
                 </div>
             </div>
